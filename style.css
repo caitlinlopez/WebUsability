@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    text-align: center;
+    
+}
+
+body {
+    background-color:lightslategrey;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 670px) {
+    img {
+       object-fit: cover;
+       width: 150px;
+       height: 150px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    img {
+        object-fit: cover;
+        width: 650px;
+        height: 650px;
+     }
+}
+
+@media only screen and (min-width: 1367px) {
+    img {
+        object-fit: cover;
+        width: 800px;
+        height: 800px;
+     }
+}
+
+#banner {
+    width: 100%;
+    background-image: url(https://globalnews.ca/wp-content/uploads/2018/04/gettyimages-565878653.jpg?quality=85&strip=all);
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 0%;
+}
+
+h1 {
+    background-color: darkslategrey;
+    color:beige;
+    padding: 10px;
+    margin-top: 0%;
+}
+
+h2 {
+    background-color: rgb(111, 126, 126);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3 {
+    margin: 30px;
+}
+
+a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: beige;
+    padding: 5px;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.question {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+embed {
+    margin-bottom: 20px;
+}
