@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>santa clara recycling</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+
+</head>
+<body>
+    <div id="banner"></div>
+
+    <h1>santa clara recycling</h1>
+
+    <h3>
+        <a href="index.html">home</a>
+        <a href="idea.html">about</a>
+        <a href="resources.html">resources</a>
+        <a href="contact.html">contact</a>
+    </h3>
+    
+    <h2>contact</h2>
+
+    <p><strong>email:</strong> cjlopez@scu.edu</p>
+
+    <p><strong>recology south bay number:</strong> 408-970-5100</p>
+
+    <p><br><strong>city of santa clara department of public works corporation yard location:</strong></p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1774.7774333509271!2d-121.95836308787227!3d37.369077090749876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fca2e7153869b%3A0xfba2c148c92c7d66!2sCity%20of%20Santa%20Clara%20Department%20of%20Public%20Works%20Corporation%20Yard!5e1!3m2!1sen!2sus!4v1675726983330!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </body>
+</html>

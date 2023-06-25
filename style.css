@@ -91,3 +91,149 @@ p {
 embed {
     margin-bottom: 20px;
 }
+
+iframe {
+    margin: 5%;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 5%;
+  } 
+
+  .help {
+    width: 30px;
+    margin: 0 auto;
+  }
+  
+  .help .question {
+    height: 30px;
+    width: 30px;
+    background: #ccc;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .help .popup, .help .popup2 {
+    width: 560px;
+    height: 0px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    background: #eee;
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  .help .popup {
+    left: -260px;
+    top: 10px;
+  }
+  
+  .help .popup2 {
+    height: 220px;
+  }
+  
+  .help .popup2 h4 {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .help:hover .popup {
+    opacity: 1;
+    height: 150px;
+  }
+  
+  .help .tell-me p:first-child {
+    color: #317eac;
+    cursor: pointer;
+  }
+  
+  .tell-me {
+    width: 150px;
+  }
+  
+  .help .tell-me:hover .popup2 {
+    top: -220px;
+    opacity: 1;
+  }
+  
+  .help .popup h3 {
+    margin: 0;
+    padding: 10px 0 0 10px;
+    height: 40px;
+    background: #555;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .help .popup p {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .help .popup .popup2 .sub-levels {
+    padding: 0 0 10px 140px;
+  }
+  
+  .help .popup .popup2 .sub-levels strong {
+    font-size: 20px;
+  }
+  
+  .help .popup .popup2 p:nth-child(5) {
+    padding: 20px 0 0 10px;
+  }
+  
+  .help .popup a {
+    text-decoration: none;
+    color: #317eac;
+  }
+  
+  .help .popup a:visited {
+    color: #317eac;
+  }
+  
+  .help .popup p em {
+    font-size: 12px;
+  }
+
+form {
+	width: 50%;
+	margin: auto;
+}  

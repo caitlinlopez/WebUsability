@@ -4,12 +4,17 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 
 </head>
-<body>
+<body onload="myFunction()">
     <div id="banner"></div>
     
     <h1>santa clara recycling</h1>
 
-    <h3><a href="index.html">home</a><a href="idea.html">about</a></h3>
+    <h3>
+        <a href="index.html">home</a>
+        <a href="idea.html">about</a>
+        <a href="resources.html">resources</a>
+        <a href="contact.html">contact</a>
+    </h3>
 
     <h2>can i recycle my item in the city of santa clara?</h2>
 
@@ -41,6 +46,18 @@
         
     <p>if the item is not listed, it is not recyclable!</p>
 
+    <div class="help">
+  
+        <div class="question">?</div>
+      
+        <div class="popup">
+          <h3>how do i use this tool?</h3>
+          <p>1) select the type of waste you are looking for</p>
+          <p>2) sort waste based on displayed info</p>
+        </div>
+      
+      </div>
+
     <h2>who is this website for?</h2>
     
     <p>any city of santa clara residents! this resource is currently only available in english, with additional languages available soon.</p>
@@ -51,5 +68,12 @@
 
     <p><i>city of santa clara recycling brochure</i></p>
     <embed src="https://www.recology.com/wp-content/uploads/2021/09/Santa-Clara-Recycles-2021.pdf" width="80%" height="500px">
+
+    <script>
+        function myFunction() {
+            alert("welcome to the santa clara recycling tool!");
+        }
+    </script>
+
 </body>
 </html>
